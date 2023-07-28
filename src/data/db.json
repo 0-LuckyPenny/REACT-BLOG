@@ -1,0 +1,55 @@
+{
+    "categories": [
+        {
+          "id": 1,
+          "name": "Technology",
+          "description": "Posts related to technology topics."
+        },
+        {
+          "id": 2,
+          "name": "Travel",
+          "description": "Posts about travel experiences and destinations."
+        }
+    ],
+
+    "users": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe",
+          "email": "john.doe@example.com",
+          "gender": "male",
+          "title": "Software Engineer"
+        },
+        {
+          "id": 2,
+          "firstName": "Jane",
+          "lastName": "Smith",
+          "email": "jane.smith@example.com",
+          "gender": "female",
+          "title": "Travel Blogger"
+        }
+    ],
+
+    "posts": [
+        {
+          "id": 1,
+          "title": "Sample Post 1",
+          "image": "https://example.com/image1.jpg",
+          "description": "This is the description for Sample Post 1.",
+          "createdAt": "2023-07-27T10:00:00Z",
+          "category": "technology",
+          "userId": 1
+        },
+        {
+          "id": 2,
+          "title": "Sample Post 2",
+          "image": "https://example.com/image2.jpg",
+          "description": "This is the description for Sample Post 2.",
+          "createdAt": "2023-07-27T12:30:00Z",
+          "category": "travel",
+          "userId": 2
+        }
+      ]
+      
+}
