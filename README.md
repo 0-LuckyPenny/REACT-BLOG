@@ -52,13 +52,13 @@ npm run start:dev
 Open your browser and go to http://localhost:3000 to view the app.
 
 <!-- Technologies Used -->
-##Technologies Used
+## Technologies Used
 
-### React.js with TypeScript
-### Redux and RTK Query for state management
-### React Router for navigation
-### Tailwind CSS for styling
-### JSON Server as the mock API
+* React.js with TypeScript
+* Redux and RTK Query for state management
+* React Router for navigation
+* Tailwind CSS for styling
+* JSON Server as the mock API
 
 ## Contributing
 
