@@ -54,11 +54,11 @@ Open your browser and go to http://localhost:3000 to view the app.
 <!-- Technologies Used -->
 ## Technologies Used
 
-* React.js with TypeScript
-* Redux and RTK Query for state management
-* React Router for navigation
-* Tailwind CSS for styling
-* JSON Server as the mock API
+1. React.js with TypeScript
+2. Redux and RTK Query for state management
+3. React Router for navigation
+4. Tailwind CSS for styling
+5. JSON Server as the mock API
 
 ## Contributing
 
