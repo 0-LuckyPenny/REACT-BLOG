@@ -43,7 +43,13 @@ cd react-blog
 npm install
 ```
 
-3. Start the development server:
+3. Install JSON Server globaly:
+
+```bash
+npm install -g json-server
+```
+
+4. Start the development server:
 
 ```bash
 npm run start:dev
