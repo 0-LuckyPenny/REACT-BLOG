@@ -24,7 +24,7 @@ A simple blog project built with React.js, Redux, RTK Query, React Router, and T
 
 <!-- Demo -->
 ## Demo
-Check out the live demo [here](https://your-awesome-blog-demo.com).
+Check out the live demo [https://react-blog-seydina-team.vercel.app/](https://react-blog-seydina-team.vercel.app/).
 
 <!-- Getting Started -->
 ## Getting Started
