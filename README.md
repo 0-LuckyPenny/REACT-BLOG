@@ -64,5 +64,8 @@ Open your browser and go to http://localhost:3000 to view the app.
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create a pull request or open an issue.
 
+## Authors
+Seydina GUEYE - Initial work
+
 
 
