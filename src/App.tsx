@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './components/_commons/Layout.component';
+import NotFound from './pages/NotFound.page';
+import Home from './pages/posts';
+import CreatePost from './pages/posts/CreatePost';
+import UpdatePost from './pages/posts/UpdatePost';
+import Categories from './pages/categories';
+import About from './pages/about';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path='/posts/create' element={<CreatePost />} />
+          <Route path='/posts/update' element={<UpdatePost />} />
+          <Route path='/categories' element={<Categories />} />
+          <Route path='/about' element={<About />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
