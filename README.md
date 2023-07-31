@@ -9,7 +9,6 @@ A simple blog project built with React.js, Redux, RTK Query, React Router, and T
 <!-- Table of Contents -->
 ## Table of Contents
 - [Features](#features)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
@@ -22,9 +21,10 @@ A simple blog project built with React.js, Redux, RTK Query, React Router, and T
 - Responsive design.
 - Categories data are also managed through the API.
 
-<!-- Demo -->
+<!-- Demo 
 ## Demo
 Check out the live demo [https://react-blog-seydina-team.vercel.app/](https://react-blog-seydina-team.vercel.app/).
+-->
 
 <!-- Getting Started -->
 ## Getting Started
