@@ -22,7 +22,7 @@ const PostItem: React.FC<PostItemProps> = ({ post }) => {
     <div className='w-full flex flex-col'>
         <div className='relative w-full h-48 bg-gray-300 rounded-xl transition duration-300 ease-in-out transform hover:scale-105'>
             <img className='absolute top-0 left-0 w-full h-full object-cover rounded-xl' src={post.image} alt=''  />
-            <span className='absolute top-3 right-3 bg-gray-900 text-xs text-white font-normal px-2.5 py-2 rounded-xl'>{post.category}</span>
+            <span className='absolute top-3 right-3 bg-black/80 text-xs text-white font-normal px-2.5 py-2 rounded-xl'>{post.category}</span>
         </div>
         <div className='w-full text-xs font-light text-gray-500 px-2 mt-4'>
             {formatDate(post.createdAt) + ' ' + formatTime(post.createdAt)}
