@@ -76,12 +76,12 @@
       "description": "Focuses on the latest and greatest gadgets and tech products in the market. It includes in-depth reviews, comparisons, and recommendations for smartphones, laptops, smartwatches, VR headsets, cameras, and other electronic devices."
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Cybersecurity",
       "description": "Keeping readers informed about digital security risks, cyber threats, data breaches, and ways to protect personal information online. It may also include tips for secure online practices and reviews of security software."
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Internet of Things (IoT)",
       "description": "Discusses the interconnection of smart devices and their impact on everyday life. It covers smart home technology, wearable devices, industrial IoT, and potential challenges and opportunities in this growing field."
     }

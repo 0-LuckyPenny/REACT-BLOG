@@ -1,5 +1,3 @@
-// src/containers/CreatePost.tsx
-
 import React from 'react';
 import { Post } from '../../models/post.model';
 import { useAddNewPostMutation } from '../../features/posts/post.api';
