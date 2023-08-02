@@ -21,7 +21,7 @@ const PostForm: React.FC<PostFormProps> = ({ post, onSubmit }) => {
     description: post?.description || '',
     image: post?.image || imageUrls[0],
     createdAt: post?.createdAt || '',
-    category: post?.category || category,
+    category: post ? post.category : category,
   });
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
