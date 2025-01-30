@@ -3,9 +3,6 @@
 <!-- Project Description -->
 A simple blog project built with React.js, Redux, RTK Query, React Router, and Tailwind CSS. The project uses JSON Server as a mock API for data, allowing users to create, list, update, and delete blog posts.
 
-<!-- Project Screenshot -->
-![Project image](https://raw.githubusercontent.com/diina-gh/react-blog/main/public/images/rb-image1.png?token=GHSAT0AAAAAACEVCDSNWDCQI4CXXLH253XEZGHT3DQ)
-
 <!-- Table of Contents -->
 ## Table of Contents
 - [Features](#features)
@@ -33,7 +30,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/diina-gh/react-blog.git
+git clone https://github.com/frory/react-blog.git
 cd react-blog
 ```
 
