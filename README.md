@@ -30,7 +30,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/frory/react-blog.git
+git clone https://github.com/0-LuckyPenny/react-blog.git
 cd react-blog
 ```
 
